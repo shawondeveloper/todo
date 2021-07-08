@@ -1,5 +1,5 @@
 <?php
-namespace Shawon\Todo;
+namespace Codingwithshawon\Todo;
 
 use Illuminate\Support\ServiceProvider;
 

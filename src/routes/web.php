@@ -1,8 +1,8 @@
 <?php
-use Shawon\Todo\Http\Controllers\TodoController;
+use Codingwithshawon\Todo\Http\Controllers\TodoController;
 use Illuminate\Support\Facades\Route;
 
-Route::group(['namespace'=>'Shawon\Todo\Http\Controllers\TodoController'],function () {
+Route::group(['namespace'=>'Codingwithshawon\Todo\Http\Controllers\TodoController'],function () {
     
     Route::get('/todo', [TodoController::class,'index'])->name('todo');
 

@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Shawon\\Todo\\": "src/"
+            "Codingwithshawon\\Todo\\": "src/"
         }
     }
 }

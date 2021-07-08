@@ -1,10 +1,10 @@
 <?php
 
-namespace Shawon\Todo\Http\Controllers;
+namespace Codingwithshawon\Todo\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Shawon\Todo\Models\Todo;
+use Codingwithshawon\Todo\Models\Todo;
 
 class TodoController extends Controller
 {
