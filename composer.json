@@ -15,5 +15,12 @@
         "psr-4": {
             "Codingwithshawon\\Todo\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codingwithshawon\\Todo\\TodoServiceProvider"
+            ]
+        }
     }
 }
