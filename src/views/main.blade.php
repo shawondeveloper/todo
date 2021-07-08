@@ -12,13 +12,8 @@
   </head>
   <body>
 
-    @if ($message = Session::get('success'))
-    <div class="alert alert-warning alert-block">
-        <button type="button" class="close" data-dismiss="alert">×</button>    
-        <strong>{{ $message }}</strong>
-    </div>
-    @endif
     
+
     <div class="container" style="margin-top: 50px;">
         @yield('content')
     </div>
